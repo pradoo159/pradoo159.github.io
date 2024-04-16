@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #9cebff;
+  color: rgb(226, 226, 226);
+
+  header {
+    height: 100%;
+  }
+
+  #container {
+    display: flex;
+    padding: 40px 60px 0px 60px;
+    justify-content: center;
+  }
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
